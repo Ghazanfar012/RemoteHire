@@ -5,11 +5,13 @@ import{ HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HrDashComponent } from './hr-dash/hr-dash.component';
+import { AppliedJobsComponent } from './applied-jobs/applied-jobs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HrDashComponent
+    HrDashComponent,
+    AppliedJobsComponent
   ],
   imports: [
     BrowserModule,
